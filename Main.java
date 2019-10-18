@@ -3,10 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package project_18_10_19;
+package testbiblioteca;
 
-import bibblioteca.Book;
-import bibblioteca.Library;
+import javax.swing.JOptionPane;
+
+
+
 
 /**
  *
@@ -69,7 +71,8 @@ public class Main {
         //TO-DO: function: search for a book by title in All the Libraries
         //return Not Availabe or All the results ordered by price
         
-        String findIt = "TPSI";
+            String findIt = JOptionPane.showInputDialog(null,"Inserisci il libro da cercare");
+         
         Book foundIt = new Book();
         //Book temp = new Book();
         //temp.setTitle(" ");

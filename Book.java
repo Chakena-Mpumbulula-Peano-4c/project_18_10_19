@@ -3,24 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bibblioteca;
+package testbiblioteca;
 
 /**
  *
  * @author francescosapioli
  */
 public class Book {
+
     private String title;
     private String writer;
     private String editor;
     private String isbn;
     private Double price;
 
-    
     public Book() {
-        
+
     }
-    
+
     public Book(String title, String writer, String editor, String isbn, Double price) {
         this.title = title;
         this.writer = writer;
@@ -69,11 +69,8 @@ public class Book {
         return price;
     }
 
-    public String printIt(){
+    public String printIt() {
         return title + " - " + writer + " - " + editor + " - " + isbn + " - " + price.toString();
     }
-    
-    
-  
-    
+
 }
